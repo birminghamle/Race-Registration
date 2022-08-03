@@ -1,0 +1,16 @@
+let raceNumber = Math.floor(Math.random() * 1000);
+
+const earlyReg = false;
+const age = 22;
+if (age > 18 && earlyReg === true) {
+  finalNumber = raceNumber += 1000;
+  console.log(`Adult registered. You will race at 9:30 AM. Your race number is ${finalNumber}.`); 
+} else if (age > 18 && earlyReg === false) {
+  finalNumber2 = Math.floor(Math.random() * 1000)
+  console.log(`Adult registered. Late adults run at 11:00 AM. Your race number is ${finalNumber2}.`)
+} else if (age < 18) {
+  finalNumber3 = Math.floor(Math.random() * 1000)
+  console.log(`Youth registered. Youth registrants run at 12:30 PM. Your race number is ${finalNumber3}.`)
+} else {
+  console.log('Since you are 18 years old, please see the regristration desk.')
+}
